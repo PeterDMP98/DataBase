@@ -3,7 +3,7 @@ import { useState } from "react"
 
 
 const useUserCrud = () => {
-  const url = `http://users-crud.academlo.tech/users/`
+  const url = `https://users-crud.academlo.tech/users/`
   const [users, setUsers] = useState()
   const [hasError, setHasError] = useState(false)
 
