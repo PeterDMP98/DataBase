@@ -1,0 +1,33 @@
+.app {
+    padding: 2em 1.5em;
+}
+
+.app_header{
+display: flex;
+margin: 1em;
+justify-content: space-between;
+}
+
+.app_title {
+    font-size: 600;
+}
+
+.app_btn{
+    background-color: #555a88;
+    color: #fff;
+    padding: 0.5em 1em1;
+    border-radius: 0.5em;
+    transition: transform 200ms ease;
+}
+
+.app_btn:hover{
+    transform: scale(1.05);
+    filter: brightness(1.15); /* para darle un brillo */
+}
+
+.app_user-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
